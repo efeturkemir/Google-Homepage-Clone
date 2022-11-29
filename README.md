@@ -1,1 +1,3 @@
-# Google-Homepage-Clone
+Preview of project
+
+![Screenshot](screenshot.png)
