@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+  font-size: 13px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 10px;
+}
+nav .nav-links {
+  text-decoration: none;
+  color: black;
+  margin-right: 10px;
+}
+.nav-links:hover {
+  text-decoration: underline;
+}
+
+.nav-img:hover {
+  cursor: pointer;
+}
+
+.nav-left {
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+
+}
+.nav-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-right: 3rem;
+}
+
+.nav-img img {
+  margin-left: 10px;
+  width: 20px;
+}
+
+.nav-button {
+  margin-left: 1rem;
+  padding: 10px;
+  width: 75px;
+  border-radius: 4px;
+  background-color: rgb(46, 144, 235);
+  border: 2px solid transparent;
+  color: white;
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 15rem;
+}
+main .inp {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  width: 500px;
+  border-radius: 40px;
+  height: 40px;
+  border: 2px solid rgb(244, 238, 238);
+}
+.inp img {
+  width: 25px;
+  object-fit: contain;
+}
+.inp img:hover {
+  cursor: pointer;
+}
+
+main input {
+  border: none;
+  margin-top: 1rem;
+  margin-left: 0.2rem;
+  height: 15px;
+  width: 500px;
+  background-color: transparent;
+}
+main input:focus {
+  width: 480px;
+  outline: none;
+}
+
+.inp-items {
+  margin-top: 1rem;
+}
+.buttons {
+  margin-top: 2rem;
+}
+.buttons button {
+  margin: 5px;
+  padding: 8px;
+  border-radius: 4px;
+  border-color: transparent;
+}
+button:hover {
+  cursor: pointer;
+}
+
+.footer {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #dfe1e5;
+  border-top: 1px solid #dadce0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin-left: -8px;
+  line-height: 10px;
+  list-style: none;
+}
+
+.footerli {
+  float: left;
+}
+
+.footerli a {
+  display: block;
+  color: #70757a;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin-left: 14px;
+  margin-right: -20px;
+}
+
+.footerli a:hover {
+  text-decoration: underline;
+}
